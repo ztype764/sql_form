@@ -83,7 +83,7 @@ public class Patient extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "", "");
                     String query = "INSERT INTO patient VALUES(?,?,?,?,?)";
                     PreparedStatement ps = (PreparedStatement) con.prepareStatement(query);
                     ps.setString(1, PATIENT_ID.getText());
@@ -106,7 +106,7 @@ public class Patient extends JFrame {
             public void actionPerformed(ActionEvent f) {
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "root", "root");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital", "", "");
                     String query = "DELETE FROM patient WHERE PATIENT_ID=?";
                     PreparedStatement ps = (PreparedStatement) con.prepareStatement(query);
                     ps.setString(1, PATIENT_ID.getText());
