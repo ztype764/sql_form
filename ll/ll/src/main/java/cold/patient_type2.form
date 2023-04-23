@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cold.patient_type2">
+  <grid id="27dc6" binding="main" layout-manager="GridLayoutManager" row-count="9" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="544" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3460334"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="59848" class="javax.swing.JTextField" binding="ID">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d5c90" class="javax.swing.JButton" binding="ADD">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ADD"/>
+        </properties>
+      </component>
+      <component id="fd9c" class="javax.swing.JTextField" binding="NAME">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ed289" class="javax.swing.JTextField" binding="STATE">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4bc73" class="javax.swing.JButton" binding="QUERY">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="QUERY"/>
+        </properties>
+      </component>
+      <component id="4eb0e" class="javax.swing.JButton" binding="DELETE">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DELETE"/>
+        </properties>
+      </component>
+      <component id="ac205" class="javax.swing.JTextField" binding="CITY">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3a60a" class="javax.swing.JTextField" binding="ADDRESS">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4ab12" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ubuntu"/>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="10229" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="NAME"/>
+        </properties>
+      </component>
+      <component id="ca55a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATE"/>
+        </properties>
+      </component>
+      <component id="de7e4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="28"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="CITY"/>
+        </properties>
+      </component>
+      <component id="8ff43" class="javax.swing.JTextField" binding="PHONE">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="5" vsize-policy="2" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="94af" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PHONE"/>
+        </properties>
+      </component>
+      <component id="d44ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ADDRESS"/>
+        </properties>
+      </component>
+      <component id="78f50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="22" style="1"/>
+          <text value="PATIENT FORM 2"/>
+        </properties>
+      </component>
+      <vspacer id="acba6">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
