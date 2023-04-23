@@ -29,7 +29,7 @@ public class patient_type2 extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "root", "");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "", "");
                     String query = "INSERT INTO patient VALUES(?,?,?,?,?,?)";
                     PreparedStatement ps = con.prepareStatement(query);
                     ps.setString(1, ID.getText());
@@ -53,7 +53,7 @@ public class patient_type2 extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 try {
                     forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "root", "");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "", "");
                     String query = "DELETE FROM patient WHERE PATID=?";
                     PreparedStatement ps = con.prepareStatement(query);
                     ps.setString(1, ID.getText());
@@ -76,7 +76,7 @@ public class patient_type2 extends JFrame {
                     String s = "";
                     String c = "";
                     forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "root", "");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital2", "", "");
                     String query = "SELECT * FROM patient where PATID=?";
                     PreparedStatement ps = con.prepareStatement(query);
                     ps.setString(1, ID.getText());
